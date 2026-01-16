@@ -11,7 +11,7 @@ namespace SayMyName
         static void Main(string[] args)
         {
             Console.WriteLine("What's your name");
-            string name = Console.ReadLine();
+            string? name = Console.ReadLine();
             Console.WriteLine($"Hello, {name} have a great day!");
             Console.Read();
         }
